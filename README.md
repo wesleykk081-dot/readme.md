@@ -1,3 +1,3 @@
-link para funcionalidades [funcionalidades](docs/funcionalidades.md)
+Ir para [funcionalidades](docs/funcionalidades.md)
 
-link para arquivos-detalhados [arquivos-detalhados](docs/arquivos-detalhados.md)
+Ir para [arquivos-detalhados](docs/arquivos-detalhados.md)
