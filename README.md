@@ -1,1 +1,1 @@
-link para instalação [instalação](docs/instalação.md)
+link para funcionalidades [funcionalidades](docs/funcionalidades.md)
