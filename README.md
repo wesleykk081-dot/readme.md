@@ -1,4 +1,4 @@
-##Nome do Projeto: Rosane Modas
+## Nome do Projeto: Rosane Modas
 Descrição: Um projeto desenvolvido para transformar uma loja física em uma vitrine online.
 Problema a ser resolvido: Desenvolver um site que contenha as informações da loja física na nossa vitrine online.
 Requisitos Operacionais:
