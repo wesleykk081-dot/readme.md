@@ -1,14 +1,62 @@
-## Nome do Projeto: Rosane Modas
-Descrição: Um projeto desenvolvido para transformar uma loja física em uma vitrine online.
-Problema a ser resolvido: Desenvolver um site que contenha as informações da loja física na nossa vitrine online.
-Requisitos Operacionais:
-Ferramentas utilizadas: HTML5, CSS3, JavaScript.
-Funcionalidades: Acessar a vitrine 100% online, com descrições detalhadas de cada peça.
-Estrutura:(arquivo/pastas-use o comando tree)
-Autores: Anny, Wesley, João.
+# Rosane Modas
 
-Ir para [funcionalidades](docs/funcionalidades.md)
+## Nome
 
-Ir para [arquivos-detalhados](docs/arquivos-detalhados.md)
+**Rosane Modas — Loja Virtual**
 
-Autores: Anny, Wesley, João.
+## Descrição
+
+Projeto de uma loja virtual para divulgar e vender as roupas disponíveis na Rosane Modas.
+
+## Problema a ser resolvido
+
+A loja funciona apenas de forma física e não possui um site próprio. O projeto busca aumentar sua visibilidade e permitir que os clientes consultem as peças disponíveis sem precisar ir até a loja.
+
+## Requisitos operacionais
+
+- Celular, tablet ou computador;
+- Acesso à internet;
+- Navegador atualizado;
+- JavaScript habilitado.
+
+## Ferramentas utilizadas
+
+- HTML5;
+- CSS3;
+- JavaScript;
+- Visual Studio Code;
+- Git e GitHub;
+- Balsamiq.
+
+## Funcionalidades
+
+- Exibição dos produtos;
+- Pesquisa e filtros;
+- Detalhes das peças;
+- Carrinho de compras;
+- Lista de favoritos;
+- Cadastro e login;
+- Formas de pagamento;
+- Cálculo de frete;
+- Informações sobre trocas.
+
+Mais informações em [Funcionalidades detalhadas](docs/funcionalidades.md).
+
+## Estrutura
+
+```text
+readme.md/
+├── README.md
+├── _config.yml
+└── docs/
+    ├── arquivos-detalhados.md
+    └── funcionalidades.md
+```
+
+Veja também [Arquivos detalhados](docs/arquivos-detalhados.md).
+
+## Autores
+
+- Anny Karoline
+- João Victor
+- Wesley Kauan
