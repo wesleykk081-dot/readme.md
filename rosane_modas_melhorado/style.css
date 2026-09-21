@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f2ee;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+header {
+    height: 90px;
+    background-color: #f0d1d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: normal;
+    color: #a96770;
+}
+
+.icones {
+    position: absolute;
+    right: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.icones span {
+    font-size: 22px;
+    color: #555;
+    cursor: pointer;
+}
+
+nav {
+    height: 45px;
+    background-color: #fffdfb;
+    border-top: 1px solid #eee6e2;
+    border-bottom: 1px solid #eee6e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+
+}
+
+nav a {
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c9828b;
+}
+
+main {
+    width: 92%;
+    max-width: 1400px;
+    margin: 25px auto;
+    background-color: white;
+    box-shadow: 0 4px 18px rgba(80, 55, 45, 0.08);
+}
+
+.banner {
+    width: 100%;
+    height: 430px;
+    display: grid;
+    grid-template-columns: 1fr 1.15fr 1fr;
+    background-color: #eadbd4;
+}
+
+.banner-foto {
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-feminina {
+    background-image: url("banner-feminino.jpg");
+}
+
+.foto-masculina {
+    background-image: url("banner-masculino.jpg");
+}
+
+.banner-texto {
+    background-color: #f0e2dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.frase-menor {
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.banner-texto h2 {
+    margin: 20px 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 43px;
+    font-weight: normal;
+    line-height: 1.05;
+    color: #222;
+}
+
+.banner-texto h2 i {
+    color: #c77f87;
+    font-weight: normal;
+}
+
+.banner-texto button {
+    margin-top: 25px;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d9949b;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.banner-texto button:hover {
+    background-color: #c77f87;
+}
+
+.categorias {
+    padding: 20px 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.categoria {
+    height: 125px;
+    display: flex;
+    align-items: stretch;
+    background-color: #eee2dc;
+    background-size: 55% 100%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.categoria.feminino {
+    background-image: url("banner-feminino.jpg");
+}
+
+.categoria.masculino {
+    background-image: url("banner-masculino.jpg");
+}
+
+.categoria.jeans {
+    background-image: url("jeans.jpg");
+}
+
+.categoria.novidades {
+    background-image: url("novidades.jpg");
+}
+
+.categoria div {
+    width: 48%;
+    background-color: rgba(245, 235, 230, 0.94);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.categoria h3 {
+    font-size: 11px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.categoria a {
+    font-size: 9px;
+    color: #777;
+}
+
+.categoria a:hover {
+    color: #c9828b;
+}
+
+.vantagens {
+    margin: 0 30px;
+    padding: 18px 20px;
+    background-color: #faefec;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.vantagens div {
+    border-right: 1px solid #ead8d3;
+}
+
+.vantagens div:last-child {
+    border-right: none;
+}
+
+.vantagens strong,
+.vantagens span {
+    display: block;
+}
+
+.vantagens strong {
+    font-size: 10px;
+    color: #8e6568;
+    margin-bottom: 4px;
+}
+
+.vantagens span {
+    font-size: 9px;
+    color: #777;
+}
+
+.lancamentos {
+    padding: 30px 30px 40px;
+}
+
+.titulo-secao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.titulo-secao h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: normal;
+    color: #d1949b;
+}
+
+.titulo-secao button {
+    padding: 8px 20px;
+    border: 1px solid #d1949b;
+    background-color: transparent;
+    color: #c47d84;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.titulo-secao button:hover {
+    background-color: #d1949b;
+    color: white;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.produto {
+    background-color: #fffaf8;
+    border: 1px solid #f0e5e0;
+    padding-bottom: 15px;
+}
+
+.produto-foto {
+    height: 190px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 12px;
+}
+
+.produto-1 {
+    background-image: url("banner-feminino.jpg");
+}
+
+.produto-2 {
+    background-image: url("banner-masculino.jpg");
+}
+
+.produto-3 {
+    background-image: url("jeans.jpg");
+}
+
+.produto-4 {
+    background-image: url("novidades.jpg");
+}
+
+.produto h3,
+.produto p {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.produto h3 {
+    font-size: 11px;
+    margin-bottom: 7px;
+    font-weight: normal;
+}
+
+.produto p {
+    font-size: 11px;
+    font-weight: bold;
+    color: #9a626a;
+}
+
+footer {
+    width: 92%;
+    max-width: 1400px;
+    margin: 0 auto 25px;
+    padding: 45px 50px;
+    background-color: #f0e4df;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    border-radius: 8px;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #c68189;
+}
+
+.quem-somos {
+    text-align: left;
+}
+
+.quem-somos p {
+    max-width: 500px;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.quem-somos a {
+    font-size: 10px;
+    font-weight: bold;
+    color: #bd747d;
+}
+
+.quem-somos a:hover {
+    text-decoration: underline;
+}
+
+.redes {
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.redes a {
+    font-size: 11px;
+    color: #bd747d;
+    font-weight: bold;
+}
+
+.redes a:hover {
+    color: #8e555c;
+}
