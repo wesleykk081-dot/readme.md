@@ -45,12 +45,18 @@ Mais informações em [Funcionalidades detalhadas](docs/funcionalidades.md).
 ## Estrutura
 
 ```text
-readme.md/
-├── README.md
-├── _config.yml
-└── docs/
-    ├── arquivos-detalhados.md
-    └── funcionalidades.md
+Rosane-Modas/
+├── index.html
+└── assets/
+    ├── img/
+    │   ├── novidades.jpg
+    │   ├── banner-masculino.jpg
+    │   ├── banner-feminino.jpg
+    │   └── jeans.jpg
+    ├── css/
+    │   └── style.css
+    └── js/
+        └── script.js
 ```
 
 Veja também [Arquivos detalhados](docs/arquivos-detalhados.md).
